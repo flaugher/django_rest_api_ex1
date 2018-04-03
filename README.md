@@ -3,6 +3,19 @@
 Example from "Build a Django REST API".
 https://codeburst.io/create-a-django-api-in-under-20-minutes-2a082a60f6f3
 
+#### Browser URIs
+
+    # View all notes in browser
+    http://localhost:8001/api/note/
+    http://localhost:8001/api/note/?format=json
+
+    # View all notes from command line
+    curl http://localhost:8001/api/note/
+
+    # View specific note
+    http://localhost:8001/api/note/1/
+    curl http://localhost:8001/api/note/1/
+
 #### API
 
 CRUD = Create Read Update Delete
@@ -25,3 +38,7 @@ http://localhost:8001/api/note/2/
 
 [Tastypie](http://django-tastypie.readthedocs.io/en/latest/index.html)
 [Postman](https://www.getpostman.com/) Dev Environment
+
+#### Resources
+
+See your rest.md file for more information on REST.
